@@ -20,7 +20,7 @@ BGP Monitoring Protocol (BMP) test using containerized Juniper cRPD, OpenBMP and
 ## My Infrastructure
 
 + An ubuntu 18.04 LTS virtual machine with 8vCPU and 16GB RAM, running in an eve-ng server, uses an http proxy for Internet
-+ I have used the [w1nt3rfell/clab-crpdmpls](https://github.com/w1nt3rfell/clab-crpdmpls) lab as base and added the BMP configuration for further testing
++ I have used the [hmntsharma/clab-crpdmpls](https://github.com/hmntsharma/clab-crpdmpls) lab as base and added the BMP configuration for further testing
   + I request you to take a look at it before you proceed further
 
 
@@ -31,7 +31,7 @@ BGP Monitoring Protocol (BMP) test using containerized Juniper cRPD, OpenBMP and
 
 ## Clone the repository
 ```
-lab@ubuntu1804:~/github$ sudo git clone https://github.com/w1nt3rfell/openbmp-crpd.git
+lab@ubuntu1804:~/github$ sudo git clone https://github.com/hmntsharma/openbmp-crpd.git
 Cloning into 'openbmp-crpd'...
 remote: Enumerating objects: 59, done.
 remote: Counting objects: 100% (59/59), done.
